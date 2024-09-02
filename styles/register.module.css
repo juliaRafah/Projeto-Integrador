@@ -1,0 +1,36 @@
+#main {
+    background-color: rgb(228, 218, 218);
+}
+
+.registerContainer {
+    background-color: rgb(163, 159, 159);
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.minContainer {
+    background-color:  rgb(163, 159, 159);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 30%;
+    height: 20%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#submitBtn {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    width: 15%;
+    height: 5%;
+    border-radius: 4px;
+}
