@@ -6,11 +6,12 @@
     background-color: rgb(163, 159, 159);
     border: 1px solid black;
     border-radius: 7px;
-    width: 30%;
-    height: 60%;
+    width: 40%;
+    height: 70%;
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 27%;
+    margin-top: 15%;
+    padding: 3%;
     font-family:'Times New Roman', Times, serif;
 }
 
