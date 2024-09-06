@@ -1,31 +1,22 @@
 #main {
-    background-color: rgb(228, 218, 218);
+    background-image: url("/gameImage.jpg");
+    background-size: cover;
 }
 
 .registerContainer {
-    background-color: rgb(163, 159, 159);
-    border: 1px solid black;
+    background: rgb(166,201,214);
+    background: radial-gradient(circle, rgb(164, 220, 240) 15%, rgb(115, 206, 240) 50%, rgba(255,255,255,1) 98%);
+    border: 1px solid rgb(55, 0, 255);
     border-radius: 7px;
     width: 40%;
     height: 70%;
     text-align: center;
     margin-left: 27%;
-    margin-top: 15%;
+    margin-top: 10%;
     padding: 3%;
     font-family:'Times New Roman', Times, serif;
 }
 
-.minContainer {
-    background-color:  rgb(163, 159, 159);
-    border: 1px solid black;
-    border-radius: 3px;
-    width: 30%;
-    height: 20%;
-    text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 #submitBtn {
     background-color: blue;
@@ -34,4 +25,12 @@
     width: 15%;
     height: 5%;
     border-radius: 4px;
+    margin-right: 5%;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    width: 55%;
 }

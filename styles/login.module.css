@@ -1,0 +1,44 @@
+#main {
+    background-image: url("/gameImage.jpg");
+    background-size: cover;
+}
+
+.container {
+    background: rgb(38,127,159);
+    background: linear-gradient(328deg, rgb(39, 165, 211) 6%, rgba(162,221,242,1) 44%, rgb(50, 161, 192) 94%);
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 7px;
+    width: 40%;
+    height: 70%;
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 13%;
+    padding: 3%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    width: 40%;
+}
+
+#submitBtn {
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+    border: 1px solid black;
+    width: 15%;
+    height: 5%;
+    border-radius: 4px;
+    margin-right: 5%;
+}
+
+#submitbtn {
+    background-color: rgb(90, 119, 128);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 20%;
+    height: 5%;
+    border-radius: 8px;
+}
