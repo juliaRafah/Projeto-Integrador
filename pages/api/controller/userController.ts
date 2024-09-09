@@ -1,5 +1,5 @@
-import { createUserModel , findUserModelByemail , findUserModelBydocument , findUserModelByusername } from "../model/user";
-
+import { createUserModel , findUserModelByemail , findUserModelBydocument , findUserModelByusername , findUserModelLogin} from "../model/user";
+import { generateToken } from '@/services/tokenConfig';
 
 export async function createUser (_email:string , _document:string , _username:string , _password:string , _name="") {
     try {
@@ -25,4 +25,25 @@ export async function createUser (_email:string , _document:string , _username:s
     catch(err) {
         return {status: 500 , message: 'Something went wrong'};
     }
+
 }
+export async function login (_email : string , _password : string) {
+    try {
+
+        const userLogin = await findUserModelLogin (_email , _password);
+
+        if (userLogin == undefined) {
+            return {status: 404 , message: 'Incorrect username or password'};
+        }
+        else {
+            const _token = generateToken(_email);
+
+            return {status: 200 , message: 'Logged in' , token: _token};
+        }
+
+    }
+    catch(err) {
+        return {status: 500 , message: 'Something went wrong'};
+    }
+}
+
