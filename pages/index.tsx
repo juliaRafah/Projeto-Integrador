@@ -11,11 +11,26 @@ export default function Home() {
 
 
   return (
-    <main className={`flex min-h-screen flex-col`}>
+    <main id={styles.main} className={`flex min-h-screen flex-col`}>
+      <nav className={styles.navBar}>
+        <input className={styles.searchBar} type="text" />
 
-      <div>
-        <Link href={``}> Criar Filme </Link>
-        <button className={styles.logoutBtn}> Logout </button>
+        <div>
+          <Link href={``}> Criar Filme </Link>
+          <button className={styles.logoutBtn}> Logout </button>
+        </div>
+        <img src="/iconGame.png" alt="" className={styles.gameIcon}></img>
+      </nav>
+
+
+      <div className={styles.containerGames}>
+        <img src="/iconCar.jfif" alt="" className={styles.cardImg}/>
+        <div className={styles.cardInfos}>
+          <h1>Nome Jogo</h1>
+          <br/>
+          <p>Data Lançamento</p>
+          <p>Descrição</p>
+        </div>
       </div>
 
 

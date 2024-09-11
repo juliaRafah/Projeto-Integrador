@@ -30,10 +30,14 @@ model game {
   id Int @id @unique @default(autoincrement())
 
   name String
+  releaseDate String
   gender String
   link String @unique
   imageURL String?
   description String
+  developer String
+  distributor String
+  price String
 
   created_ad DateTime @default(now())
   updated_ad DateTime @updatedAt

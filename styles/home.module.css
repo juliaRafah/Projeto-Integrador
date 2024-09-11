@@ -1,0 +1,60 @@
+#main {
+    overflow-x: hidden;
+    background: rgb(38,70,159);
+background: linear-gradient(196deg, rgba(38,70,159,1) 11%, rgba(170,223,242,1) 50%, rgba(71,80,161,1) 90%);
+}
+
+.navBar {
+    background-color: rgba(152, 218, 238, 0.884);
+    height: 15vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.searchBar {
+    margin-left: 2%;
+    height: 30%;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 5.5%;
+    border: 1px solid black;
+}
+
+.containerGames {
+    background-color: rgb(225, 234, 235);
+    width: 20%;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.logoutBtn {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    width: 15%;
+    height: 20%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.cardInfos {
+    text-align: center;
+}
+
+.cardImg {
+    height: 99%;
+    padding: 1%;
+}
+
+.gameIcon {
+    margin-top: 8%;
+    width: 60%;
+}
