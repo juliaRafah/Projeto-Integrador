@@ -16,4 +16,4 @@ export default async ( req: NextApiRequest , res: NextApiResponse ) => {
     else {
         return  res.status(response.status).json({message: response.message});
     }
-}
+}i

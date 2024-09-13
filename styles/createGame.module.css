@@ -1,21 +1,25 @@
 #main {
     overflow-x: hidden;
+    background: rgb(38,70,159);
+background: linear-gradient(196deg, rgba(38,70,159,1) 11%, rgba(170,223,242,1) 50%, rgba(71,80,161,1) 90%);
 }
 
 #accontForm {
-    background-color: rgb(218, 165, 97);
+    background: rgb(38,102,159);
+background: linear-gradient(180deg, rgb(166, 201, 231) 11%, rgba(229,244,250,1) 50%, rgb(176, 211, 245) 90%);
     padding-left: 3%;
     padding: 3%;
     width: 40%;
     margin-left: 29%;
-    margin-top: 9%;
+    margin-top: 7%;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .input {
     border: 1px solid black;
     border-radius: 5px;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 50%;
 }
 
@@ -23,7 +27,13 @@
     background-color: black;
     color: white;
     width: 20%;
-    margin-top: 3%;
+    margin-top: 5%;
     border: 1px solid white;
     border-radius: 18px;
+}
+
+.iconCreate {
+    height: 10%;
+    width: 20%;
+    margin-left: 75%;
 }

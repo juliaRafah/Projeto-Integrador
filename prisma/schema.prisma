@@ -29,15 +29,15 @@ model user {
 model game {
   id Int @id @unique @default(autoincrement())
 
-  name String
+  name String @unique
   releaseDate String
   gender String
-  link String @unique
-  imageURL String?
+  link String 
   description String
   developer String
   distributor String
   price String
+  imageURL String?
 
   created_ad DateTime @default(now())
   updated_ad DateTime @updatedAt
