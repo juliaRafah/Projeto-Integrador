@@ -9,7 +9,7 @@ export default async ( req: NextApiRequest , res: NextApiResponse ) => {
     const { email , document , name , username , password } = req.body;
 
   
-    const response:any = await createUser (email , document , name , username , password);
+    const response:any = await createUser (email , document , username , password, name);
 
     return res.status(response.status).json({message: response.message});
 }
